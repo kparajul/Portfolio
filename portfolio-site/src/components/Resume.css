@@ -1,0 +1,24 @@
+.resume {
+    text-align: center;   
+    align-items: center;
+    color: antiquewhite;
+    font-size: calc(10px + 2vmin);
+    align-items: center;
+  }
+  
+  .resume-view {
+    background-color: #008080;
+    color: white;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+  }
+
+  .resume-view:hover {
+    background-color: #5a6268;
+  }
+ 
