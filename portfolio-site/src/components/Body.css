@@ -40,7 +40,14 @@
 }
 
 .text-container{
-    margin-top: 10px;;
+    margin-top: 10px;
+    list-style-position: outside;
+}
+
+.text-container li{
+    margin-top: 10px;
+    text-indent: -0.9em;
+    padding-left: 1em;
 }
 
 .certifications a{
