@@ -7,46 +7,80 @@
 
 .body-container{
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
+    height: 400vh;
     width: 100%;
     padding: 20px;
     justify-content: space-between;
-    gap: 20px;
-}
-
-.body-container > div:nth-child(1){
-    width: 10%;
 }
 .body-container > div:nth-child(1){
-    width: 90%;
-}
-
-.skills-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:start;
     width: 30%;
-    flex-shrink: 0;
-    box-sizing: border-box;
-    margin-right: 1%;
 }
-
-.exp-container{
-    display: flex;
+.body-container > div:nth-child(2){
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    box-sizing: border-box;
-    margin-left: 20px;
+    background-color: #008080;
+    margin: 0 30px;
+    width: 1px;
+    display: block;
+
+}
+.body-container > div:nth-child(3){
+    width: 65%;
 }
 
+@media screen and (max-width: 768px) {
+    .body-container{
+      width: auto;
+      height: auto;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    .body-container > div:nth-child(1) {
+      width: auto;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body-container > div:nth-child(2) {
+      display: none;
+      margin: 0;
+      padding: 0;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body-container > div:nth-child(3) {
+      width: 100%;
+    }
+}
+
+.section-v-divider{
+    background-color: #008080;
+    margin: 0 30px;
+    height: 100%;
+    width: 1px;
+    display: block;
+}
 
 .columns-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .columns-container {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 }
 
 .left-side{
@@ -59,6 +93,24 @@
     display: flex;
     justify-content: left;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .left-side {
+      width: auto;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .right-side {
+      width: auto;
+      height: auto;
+      justify-content: center;
+      margin-top: 10px;
+    }
 }
 
 .section-divider{

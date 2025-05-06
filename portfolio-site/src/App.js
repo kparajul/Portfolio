@@ -16,13 +16,12 @@ function App() {
       </div>
       <div className='section-divider'></div>
       <div className='body-container'>
-        <div><Experiences/></div>
-        <div></div>
         <div>
           <div><Education/></div>
           <div><Skills/></div>
         </div>
-       
+        <div></div>
+        <div><Experiences/></div>
       </div>
       
     </div>
