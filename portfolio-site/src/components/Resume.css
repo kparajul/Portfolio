@@ -21,4 +21,21 @@
   .resume-view:hover {
     background-color: #5a6268;
   }
- 
+
+  .contact-info {
+    font-size: 1.1rem;
+    color: antiquewhite;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h3 {
+    font-size: 1.3rem;
+    color: antiquewhite;
+  }
+  
+  .contact-info a {
+    margin-top: 10px;
+    color: inherit; 
+
+  }
+  

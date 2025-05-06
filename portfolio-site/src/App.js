@@ -12,7 +12,9 @@ function App() {
     <div className='App'>
       <div className='columns-container'>
         <div className='left-side'><Header/></div>
-        <div className='right-side'><Resume/></div>
+        <div className='right-side'>
+          <Resume/>
+        </div>
       </div>
       <div className='section-divider'></div>
       <div className='body-container'>
