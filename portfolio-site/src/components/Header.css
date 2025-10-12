@@ -12,6 +12,18 @@
     color: antiquewhite;
 }
 
+.linkedin-icon {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.linkedin-icon:hover {
+    transform: scale(2);
+    transition: transform 1s;
+    color: antiquewhite;
+}
+
+
 .image-container{
     display: flex;
     justify-content: center;

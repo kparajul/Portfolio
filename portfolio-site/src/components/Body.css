@@ -56,6 +56,18 @@
     margin-top: 10px;
     flex-shrink: 0;
     box-sizing: border-box;
+    gap: 8px;
+}
+.github-icon {
+    margin-left: 10px;
+    vertical-align: middle;
+    color:#008080;
+}
+
+.github-icon:hover {
+    transform: scale(2);
+    transition: transform 1s;
+    color:antiquewhite;
 }
 
 .research-container{
