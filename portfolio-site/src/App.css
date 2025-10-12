@@ -11,6 +11,25 @@
     width: 100%;
 
 }
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    gap: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin-bottom: 10px;
+    gap: 20px;
+    color:antiquewhite
+}
 
 .body-container-second{
     display: flex;

@@ -8,6 +8,7 @@ import './App.css';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import Research from './components/Research';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <div><Projects/></div>
         <div><Research/></div>
       </div>
+      <div><Footer/></div>
     </div>
   );
 }
