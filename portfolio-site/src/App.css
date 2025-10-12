@@ -2,16 +2,22 @@
     background-color: #2f4f4f;
     display: flex;
     flex-direction: column;
-    min-height: 500vh;
+    min-height: 100vh;
+}
+
+.scroll-container {
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+
 }
 
 .body-container{
     display: flex;
-    flex-wrap: wrap;
-    height: 400vh;
-    width: 100%;
+    height: calc(100vh - 60px);
     padding: 20px;
     justify-content: space-between;
+    overflow: hidden;
 }
 .body-container > div:nth-child(1){
     width: 30%;
@@ -114,7 +120,7 @@
 }
 
 .section-divider{
-    margin: 60px auto;
+    margin: 10px auto;
     width: 80%;
     height: 1px;
     background-color: #008080;
@@ -123,5 +129,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    background-color: #2f4f4f;
+    overscroll-behavior: contain;
   }

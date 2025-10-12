@@ -23,7 +23,7 @@ function App() {
           <div><Skills/></div>
         </div>
         <div></div>
-        <div><Experiences/></div>
+        <div className='scroll-container'><Experiences/></div>
       </div>
       
     </div>
