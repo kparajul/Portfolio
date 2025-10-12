@@ -5,7 +5,7 @@ import './Body.css';
 const Education = () => (
         <div className='skills-box'>
             <h2>Education</h2>
-            <div className='text-container'>
+            <div className='education'>
                 <p>Bachelor of Science in Software Engineering - December 2025</p>
                 <p>State University of New York at Oswego</p>
             </div>

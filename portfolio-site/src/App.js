@@ -6,6 +6,8 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import './App.css';
 import Experiences from './components/Experiences';
+import Projects from './components/Projects';
+import Research from './components/Research';
 
 function App() {
   return (
@@ -25,7 +27,11 @@ function App() {
         <div></div>
         <div className='scroll-container'><Experiences/></div>
       </div>
-      
+      <div className='section-divider'></div>
+      <div className='body-container-second'>
+        <div><Projects/></div>
+        <div><Research/></div>
+      </div>
     </div>
   );
 }

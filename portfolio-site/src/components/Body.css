@@ -35,19 +35,77 @@
     box-sizing: border-box;
 }
 
+.project-container{
+    padding: 10px;
+    border: 1px solid #008080;
+    border-radius: 12px;
+    margin-top: 10px;
+    color:antiquewhite;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.project-box{
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #008080;
+    width: 100%;
+    color:antiquewhite;
+    margin-top: 10px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.research-container{
+    padding: 10px;
+    border: 1px solid #008080;
+    border-radius: 12px;
+    margin-top: 10px;
+    color:antiquewhite;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.research-box{
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #008080;
+    width: 100%;
+    color:antiquewhite;
+    margin-top: 10px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
 .div-divider{
     height: 10px;
 }
 
 .text-container{
-    margin-top: 10px;
     list-style-position: outside;
+    padding: 10px 20px;
 }
 
 .text-container li{
+    padding: 10px 20px;
+}
+.education p{
     margin-top: 10px;
-    text-indent: -0.9em;
-    padding-left: 1em;
+    margin-bottom: 10px;
+}
+
+.languages{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.technologies{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .certifications a{

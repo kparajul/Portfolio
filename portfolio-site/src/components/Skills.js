@@ -6,12 +6,12 @@ import './Header'
 const Skills = () => (
         <div className='skills-box'>
             <h2>Languages</h2>
-            <div className='text-container'>
-                <p>Java | Python | Go | C | C++ | Racket | Haskell | Prolog</p>
+            <div className='languages'>
+                <p>Java | Python | Go | C# | C | C++ | Racket | Haskell | Prolog</p>
             </div>
             <div className='div-divider'></div>
             <h2>Technologies</h2>
-             <div className='text-container'>
+             <div className='technologies'>
                 <p>Amazon AWS | React | Node.js | Express.js | MongoDB | PostgreSQL | Git | Docker | Postman | Google Oauth | Maven | OpenLiberty</p>
             </div>
         </div>
