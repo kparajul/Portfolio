@@ -8,8 +8,8 @@ const Resume = () => (
       <p>Email: <a href="mailto:kritikaparajuli55@gmail.com">kritikaparajuli55@gmail.com</a>
       </p>
     </div>
-    <button className='resume-view' onClick={() => window.open(`${process.env.PUBLIC_URL}/Kritika-Resume.pdf`, '_blank')}>
-        View full resume</button>
+    <button className='resume-view' onClick={() => window.open(`${process.env.PUBLIC_URL}/Kritika_Resume.pdf`, '_blank')}>
+        View Full Resume</button>
     
   </div>
 );
