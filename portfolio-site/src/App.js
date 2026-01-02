@@ -2,7 +2,6 @@
 import React from 'react';
 import Header from './components/Header';
 import Resume from './components/Resume';
-import Skills from './components/Skills';
 import Education from './components/Education';
 import './App.css';
 import Experiences from './components/Experiences';
@@ -23,7 +22,6 @@ function App() {
       <div className='body-container'>
         <div>
           <div><Education/></div>
-          <div><Skills/></div>
         </div>
         <div></div>
         <div className='scroll-container'><Experiences/></div>
@@ -31,6 +29,7 @@ function App() {
       <div className='section-divider'></div>
       <div className='body-container-second'>
         <div><Projects/></div>
+        <div className='section-divider'></div>
         <div><Research/></div>
       </div>
       <div><Footer/></div>

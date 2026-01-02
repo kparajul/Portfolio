@@ -3,7 +3,6 @@
 .skills-box{
     padding: 20px;
     border-radius: 12px;;
-    border: 1px solid #008080;
     color:antiquewhite;
     margin-top: 10px;
     flex-shrink: 0;
@@ -14,7 +13,6 @@
 
 .experience-container{
     padding: 10px;
-    border: 1px solid #008080;
     border-radius: 12px;
     margin-top: 10px;
     color:antiquewhite;
@@ -26,8 +24,7 @@
 .experience-box{
     align-items: center;
     padding: 10px;
-    border-radius: 12px;
-    border: 1px solid #008080;
+    border-radius: 12px;  
     width: 100%;
     color:antiquewhite;
     margin-top: 10px;
@@ -37,7 +34,6 @@
 
 .project-container{
     padding: 10px;
-    border: 1px solid #008080;
     border-radius: 12px;
     margin-top: 10px;
     color:antiquewhite;
@@ -50,7 +46,6 @@
     align-items: center;
     padding: 10px;
     border-radius: 12px;
-    border: 1px solid #008080;
     width: 100%;
     color:antiquewhite;
     margin-top: 10px;
@@ -72,7 +67,6 @@
 
 .research-container{
     padding: 10px;
-    border: 1px solid #008080;
     border-radius: 12px;
     margin-top: 10px;
     color:antiquewhite;
@@ -85,7 +79,6 @@
     align-items: center;
     padding: 10px;
     border-radius: 12px;
-    border: 1px solid #008080;
     width: 100%;
     color:antiquewhite;
     margin-top: 10px;
